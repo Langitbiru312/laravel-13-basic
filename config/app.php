@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Name
+    | Application fName
     |--------------------------------------------------------------------------
     |
     | This value is the name of your application, which will be used when the
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('APP_TIMEZONE' ,'Asia/Makassar'),
 
     /*
     |--------------------------------------------------------------------------
